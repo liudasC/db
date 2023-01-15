@@ -1,14 +1,85 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "ride"
-  }
-}
+[
+  {
+    id: 1,
+    title: "Kauno marsrutas",
+    description: "You can see this, and go there and visit that",
+    length: 20,
+    location: "Kaunas",
+    locationCoordinates: [23.864364624023438, 54.813348417419284],
+    isFerry: false,
+    isTrain: true,
+    isBus: true,
+    isSmooth: true,
+    difficulty: 0,
+    trafficRoad: 10,
+    quietRoad: 15,
+    offRoad: 20,
+    bikePath: 25,
+    facebookUrl: "www.facebook.com",
+    lastUpdate: "2022-09-30",
+    coordinates: [
+      [
+        23.901443481445312, //long
+        54.905830057016395, //lat
+        70, // elev
+      ],
+      [23.864364624023438, 54.813348417419284, 77],
+      [23.992767333984375, 54.867519385313315, 75],
+      [23.989334106445312, 54.90148737913102, 72],
+      [23.937835693359375, 54.91530336482901, 71],
+      [23.904190063476562, 54.90385617058854, 70],
+    ],
+  },
+  {
+    id: 2,
+    title: "Traku marsrutas",
+    description: "You can see this, and go there and visit that",
+    length: 15,
+    location: "Trakai",
+    locationCoordinates: [24.934158325195312, 54.635697306063854],
+    isFerry: false,
+    isTrain: false,
+    isBus: true,
+    isSmooth: true,
+    difficulty: 1,
+    trafficRoad: 0,
+    quietRoad: 5,
+    offRoad: 10,
+    bikePath: 25,
+    facebookUrl: "www.facebook.com",
+    lastUpdate: "2022-09-30",
+    coordinates: [
+      [24.934158325195312, 54.635697306063854, 52],
+      [24.90840911865234, 54.66946329926599, 53],
+      [24.93724822998047, 54.67224277785812, 50],
+      [24.93896484375, 54.63549859956725, 48],
+    ],
+  },
+  {
+    id: 3,
+    title: "Birstono marsrutas",
+    description: "You can see this, and go there and visit that",
+    length: 18,
+    location: "Birštonas",
+    locationCoordinates: [24.03332233428955, 54.59998907219673],
+    isFerry: true,
+    isTrain: false,
+    isBus: true,
+    isSmooth: false,
+    difficulty: 2,
+    trafficRoad: 2,
+    quietRoad: 10,
+    offRoad: 0,
+    bikePath: 14,
+    facebookUrl: "www.facebook.com",
+    lastUpdate: "2022-09-30",
+    coordinates: [
+      [24.03332233428955, 54.59998907219673, 44],
+      [24.03559684753418, 54.60461278036312, 44],
+      [24.03482437133789, 54.610627786713174, 44],
+      [24.01954650878906, 54.61465386458373, 45],
+      [24.015469551086426, 54.60819206478196, 42],
+      [24.032506942749023, 54.60008851230569, 44],
+    ],
+  },
+]
