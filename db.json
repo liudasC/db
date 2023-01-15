@@ -1,1 +1,26 @@
-[{"symbol":"ETHBTC","priceChange":"-0.00037800","priceChangePercent":"-0.509","weightedAvgPrice":"0.07350810","prevClosePrice":"0.07426000","lastPrice":"0.07388100","lastQty":"0.64330000","bidPrice":"0.07388100","bidQty":"24.50940000","askPrice":"0.07388200","askQty":"5.18960000","openPrice":"0.07425900","highPrice":"0.07442400","lowPrice":"0.07286200","volume":"98169.02730000","quoteVolume":"7216.21830472","openTime":1673693941065,"closeTime":1673780341065,"firstId":397464489,"lastId":397672150,"count":207662},{"symbol":"LTCBTC","priceChange":"-0.00008800","priceChangePercent":"-2.057","weightedAvgPrice":"0.00420450","prevClosePrice":"0.00428100","lastPrice":"0.00419100","lastQty":"4.80400000","bidPrice":"0.00419100","bidQty":"29.27100000","askPrice":"0.00419200","askQty":"170.41800000","openPrice":"0.00427900","highPrice":"0.00430100","lowPrice":"0.00412800","volume":"97035.59900000","quoteVolume":"407.98650584","openTime":1673693940151,"closeTime":1673780340151,"firstId":87559166,"lastId":87588315,"count":29150}]
+[
+		{
+			"holder_id": "00uq3rc53x83RPdq00h7",
+			"type": "Savings Account",
+			"holder": "Miguelángel Fernández",
+			"balance": 32000,
+			"currency": "EUR",
+			"icon": "",
+			"routing": "iban",
+			"iban": "CB015000001234561699",
+			"status": "active",
+			"opened": "20180229"
+		},
+		{
+			"holder_id": "00uq3rc53x83RPdq00h7",
+			"type": "Savings Account",
+			"holder": "M. Fernández",
+			"balance": 32000,
+			"currency": "GBP",
+			"icon": "",
+			"routing": "iban",
+			"iban": "CB015000001234561699",
+			"status": "active",
+			"opened": "20180218"
+		}
+  ]
