@@ -1,26 +1,6 @@
 [
-		{
-			"holder_id": "00uq3rc53x83RPdq00h7",
-			"type": "Savings Account",
-			"holder": "Miguelángel Fernández",
-			"balance": 32000,
-			"currency": "EUR",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB015000001234561699",
-			"status": "active",
-			"opened": "20180229"
-		},
-		{
-			"holder_id": "00uq3rc53x83RPdq00h7",
-			"type": "Savings Account",
-			"holder": "M. Fernández",
-			"balance": 32000,
-			"currency": "GBP",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB015000001234561699",
-			"status": "active",
-			"opened": "20180218"
-		}
+	{"id": "2a",
+	"name": "Bob"},
+		{"id": "3b",
+	"name": "Jim"},
   ]
